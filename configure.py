@@ -166,7 +166,7 @@ if __name__=="__main__":
 
     os.chdir("src")    
     qmake_cmd=qmake_exe
-    if sys.platform=="win32": qmake_cmd+=" -spec win32-msvc2010"
+    if sys.platform=="win32": qmake_cmd+=" -spec win32-msvc"
     print()
     print(qmake_cmd)
     os.system(qmake_cmd)
